@@ -6,12 +6,14 @@ import axios from 'axios';
 import qs from 'qs';
 
 function App() {
+	const [orgs, setOrgs] = useState([])
+
     const onSearch = (technologies) => {
         console.log(technologies)
         var qs=require('qs')
         axios.post('http://127.0.0.1:8000/find/',qs.stringify({'technologies':technologies}))
         axios.get('http://127.0.0.1:8000/find/').then(function(response){
-          console.log(response)
+          setOrgs(response.data);
         })
     }
 
@@ -25,7 +27,12 @@ function App() {
             <div>
                 <h2>Organizations</h2>
                 <div className="organizations">
-                    <Organization />
+                    {
+                        orgs.length ?
+                            orgs.map((org, index) => (
+                                <Organization org={org} key={index} />
+                            )) : 'Search with your github username to get the organizations.'
+                    }
                 </div>
             </div>
 

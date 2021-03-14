@@ -20,10 +20,17 @@
 .body {
   display: grid;
   grid-template-columns: 7fr 3fr;
-  grid-gap: 10px;
-  width: 900px;
+  grid-gap: 20px;
+  width: 1000px;
   margin: 40px auto auto;
   text-align: left;
+}
+
+.organizations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  margin: 20px 0;
 }
 
 h2 {
