@@ -1,0 +1,36 @@
+.search {
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #fbbc05;
+    padding: 8px 12px;
+    outline: none;
+    margin-top: 10px;
+    transition: 200ms;
+}
+
+input:focus, select:focus {
+    box-shadow:  0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+button {
+    border-radius: 3px;
+    border: 1px solid #fbbc05;
+    padding: 8px 12px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    background: #fbbc05;
+    transition: background 200ms;
+}
+
+button:hover {
+    background: #ffd96b;
+}
+
+button:focus {
+    background: #e0aa0e;
+}
