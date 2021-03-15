@@ -33,9 +33,9 @@ The interface is built using React. The user has to enter the username of their 
 ## Why OrgFinder?
 - It is easy to use as the input required is just your GitHub username.
 
--For most Open-Source enthusiasts, GitHub tends to be the proof of their knowledge in the field, hence using its API gives relevant and organisations that attract the user's interests.  
+- For most Open-Source enthusiasts, GitHub tends to be the proof of their knowledge in the field, hence using its API gives relevant and organisations that attract the user's interests.  
 
--Searching in the pool of 100's of organisations to choose a maximum of 3 manually and reading about each of them may end up being vain while our **OrgFinder** suggests you a list of the organisations according to your knowledge, hence, saving your valuable time.
+- Searching in the pool of 100's of organisations to choose a maximum of 3 manually and reading about each of them may end up being vain while our **OrgFinder** suggests you a list of the organisations according to your knowledge, hence, saving your valuable time.
 
 ## Result
 
